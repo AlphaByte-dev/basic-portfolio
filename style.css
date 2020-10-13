@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/background_image.jpg);
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
+
+.hero__background-color-filter {
+  background-color: #344861;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: 10;
+}
+
+.hero__photo {
+  overflow: hidden;
+  margin: 0 auto;
+}
+.hero__photo img {
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  z-index: 20;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero__text_one {
+  margin-top: 20px;
+  font-weight: 900;
+}
+.hero__text_name {
+  margin: 10px 0;
+  font-size: 3.1rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.hero__text_desc {
+  letter-spacing: 3px;
+  padding-top: 10px;
+  border-top: 1px solid white;
+}
+
+/* NAVIGATION */
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  background-color: #344861;
+  overflow-y: auto;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 25px 20px;
+  font-size: 0.9rem;
+}
+.navigation a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* MAIN */
+.main {
+  background-color: #344861;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container__content {
+  max-width: 750px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.section-heading h2 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+.section-para p {
+  color: white;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .navigation {
+    position: relative;
+    justify-content: unset;
+  }
+}
