@@ -1,5 +1,5 @@
 # Basic Portfolio
 
-A basic portfolio starter in HTML and CSS
+A basic portfolio starter in HTML and
 
-![Screenshot](https://raw.githubusercontent.com/AlphaByte-dev/basic-portfolio/main/screenshots/ss1.PNG?token=AB7QKNZ7VQIGFAKICVJN2HC7QXVDK)
+![Screenshot](https://i.ibb.co/bdtLRLP/image.png)
